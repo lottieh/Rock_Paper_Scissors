@@ -1,23 +1,24 @@
 let player = "paper";
 console.log(player)
+
 let options = ["rock", "paper", "scissors"];
 computerPick = options[Math.floor(Math.random() * options.length)]
 console.log(computerPick)
 
-if ((player === "rock"||"Rock") && (computerPick === "paper")) {
+if ((player === ("rock"||"Rock")) && (computerPick === "paper")) {
     response = "Paper beats rock, you lose ! "
 
-} else if ((player ==="rock"||"Rock") && (computerPick === "scissors")) {
+} else if ((player ===("rock"||"Rock")) && (computerPick === "scissors")) {
     response = "Rock beats scissors, you win !"
 
-} else if ((player === "paper"||"Paper") && (computerPick === "rock")) {
+} else if ((player === ("paper"||"Paper")) && (computerPick === "rock")) {
     response = "Paper beats rock, you win ! "
 
-} else if ((player === "paper"||"Paper") && (computerPick === "scissors")) {
-    response = "Scissors beat paper, you win !"
-} else if ((player === "scissors"||"Scissors") && (computerPick === "rock")) {
+} else if ((player === ("paper"||"Paper")) && (computerPick === "scissors")) {
+    response = "Scissors beat paper, you lose !"
+} else if ((player === ("scissors"||"Scissors")) && (computerPick === "rock")) {
     response = "Rock beats scissors, you lose !"
-} else if ((player === "scissors"||"Scissors") && (computerPick === "paper")) {
+} else if ((player === ("scissors"||"Scissors")) && (computerPick === "paper")) {
     response = "Scissors beat paper, you win !"
 } else if ((player === computerPick)) {
     response = "We picked the same, it's a tie"
@@ -25,6 +26,9 @@ if ((player === "rock"||"Rock") && (computerPick === "paper")) {
     response = "I don't think that us is a valid choice"
 }
 console.log(response)
+
+
+
 
 
 
