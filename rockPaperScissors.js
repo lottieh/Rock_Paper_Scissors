@@ -1,9 +1,9 @@
 let player = "paper";
-console.log(player)
+console.log(" You picked ", player)
 
 let options = ["rock", "paper", "scissors"];
 computerPick = options[Math.floor(Math.random() * options.length)]
-console.log(computerPick)
+console.log("I picked ", computerPick)
 
 if ((player === ("rock"||"Rock")) && (computerPick === "paper")) {
     response = "Paper beats rock, you lose ! "
