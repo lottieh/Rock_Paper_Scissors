@@ -1,4 +1,4 @@
-let player = "paper"; //Please insert your choice here 
+let player = "cissors"; //Please insert your choice here 
 
 console.log("You picked ", player)
 
