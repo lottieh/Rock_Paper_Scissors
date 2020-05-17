@@ -25,7 +25,7 @@ if ((player === ("rock" || "Rock")) && (computerPick === "paper")) {
 } else if ((player === computerPick)) {
     response = "We picked the same, it's a tie"
 } else {
-    response = "I don't think that us is a valid choice"
+    response = "I don't think that is a valid choice!"
 }
 console.log(response)
 
