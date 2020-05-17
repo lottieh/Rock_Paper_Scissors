@@ -1,5 +1,5 @@
 let player = "paper";
-console.log(" You picked ", player)
+console.log("You picked ", player)
 
 let options = ["rock", "paper", "scissors"];
 computerPick = options[Math.floor(Math.random() * options.length)]
