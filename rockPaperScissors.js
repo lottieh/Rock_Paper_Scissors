@@ -3,7 +3,6 @@ let player = "Paper"; //Please insert your choice here
 console.log("You picked ", player)
 
 let playerLower = player.toLowerCase();
-console.log(playerLower)
 
 let options = ["rock", "paper", "scissors"];
 computerPick = options[Math.floor(Math.random() * options.length)]
